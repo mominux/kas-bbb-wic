@@ -4,7 +4,7 @@
 UBOOT_EXTLINUX = "1"
 UBOOT_EXTLINUX_ROOT ?= "root=/dev/mmcblk0p2"
 # Install the extlinux conf file in /boot, and also the device tree it needs
-MACHINE_ESSENTIAL_EXTRA_RDEPENDS = "u-boot-kiss-extlinux kernel-devicetree"
+MACHINE_ESSENTIAL_EXTRA_RDEPENDS = "u-boot-extlinux kernel-devicetree kernel-image kernel-devicetree kernel-modules"
 
 # Install kernel modules if they are enabled
 MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS = "kernel-modules"

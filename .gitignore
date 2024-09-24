@@ -2,3 +2,5 @@ bitbake/
 openembedded-core/
 build/
 meta-arm/
+meta-openembedded/
+meta-qt/
